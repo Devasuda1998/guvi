@@ -1,9 +1,7 @@
-import math as m
-d=int(input())
-for i in range(0,d):
-    j=pow(2,i)
-    ifj>d:
-        j=pow(2,i,-1)
+ght=int(input())
+sums=0
+for i in range(0,ght):
+    if(pow(2,i)<ght):
         break
-c=d-j
-print(c)
+    sums=ght-pow(2,i)
+print(sums)
